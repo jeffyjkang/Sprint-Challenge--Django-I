@@ -38,6 +38,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
+    'note',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
